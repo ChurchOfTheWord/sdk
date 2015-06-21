@@ -84,6 +84,9 @@ Install the following development packages, if available, or download
 and compile their respective sources (package names are for
 Debian and RedHat derivatives, respectively):
 
+Ubuntu:
+    sudo apt-get install inotify-tools libcurl4-openssl-dev libc-ares-dev libssl-dev libcrypto++ zlib1g-dev libsqlite3-dev libfreeimage-dev
+
 * cURL (`libcurl4-openssl-dev`, `libcurl-devel`), compiled with `--enable-ssl`
 * c-ares (`libc-ares-dev`, `libcares-devel`, `c-ares-devel`)
 * OpenSSL (`libssl-dev`, `openssl-devel`)
